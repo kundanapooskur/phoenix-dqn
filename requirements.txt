@@ -1,0 +1,12 @@
+gymnasium[atari,accept-rom-license]>=0.29.1
+ale-py>=0.10.1
+# Use NumPy 2.x for Python 3.12 compatibility
+numpy>=2.1,<2.3
+# Use a PyTorch build available for Python 3.12 on macOS
+torch==2.9.0
+opencv-python==4.10.0.84
+tqdm==4.66.5
+tensorboard==2.17.1
+protobuf==5.28.0
+moviepy==1.0.3
+
