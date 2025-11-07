@@ -43,6 +43,17 @@ python -m rl.eval_dqn \
 
 Videos will be saved in `videos/phoenix`. Ensure `ffmpeg` is installed for video encoding.
 
+<<<<<<< HEAD
+=======
+## Quick Visual (Training)
+
+Record a short play video just to see the Phoenix game rendering:
+
+```bash
+python -m rl.record_random --env_id ALE/Phoenix-v5 --steps 2000 --video_dir videos/random_demo
+```
+
+>>>>>>> 6414a53b274b7c6723456c1e07b08b56bb775452
 Open the resulting MP4 in `videos/random_demo`.
 
 ## Project Layout
@@ -78,9 +89,13 @@ See `docs/REPORT.md` for baseline configuration, analysis, answers to conceptual
 
 This project is licensed under the MIT License (see `LICENSE`). Code was written for this assignment from scratch; where we follow standard DQN design patterns (experience replay, target network, frame stacking), these are based on the original DQN paper by Mnih et al. (2015). No third‑party code was copied into the repository.
 
-
 ## Phoenix DQN Report
 
+<<<<<<< HEAD
+## Phoenix DQN Report
+
+=======
+>>>>>>> 6414a53b274b7c6723456c1e07b08b56bb775452
 ### Baseline Performance (1000 Episodes)
 - Environment: `ALE/Phoenix-v5`
 - Episodes: 1000, Max steps per episode: 300
