@@ -15,12 +15,12 @@ pip install -r requirements.txt
 
 Note: Atari ROMs are provided by `ale-py` and accepted automatically via `gymnasium[accept-rom-license]`.
 
-### 2) Train (1000 episodes on Phoenix)
+### 2) Train (2000 episodes on Phoenix)
 
 ```bash
 python -m rl.train_dqn \
   --env_id ALE/Phoenix-v5 \
-  --total_episodes 1000 \
+  --total_episodes 2000 \
   --train_dir checkpoints/phoenix_dqn \
   --seed 42
 ```
@@ -96,9 +96,9 @@ This project is licensed under the MIT License (see `LICENSE`). Code was written
 
 =======
 >>>>>>> 6414a53b274b7c6723456c1e07b08b56bb775452
-### Baseline Performance (1000 Episodes)
+### Baseline Performance (2000 Episodes)
 - Environment: `ALE/Phoenix-v5`
-- Episodes: 1000, Max steps per episode: 300
+- Episodes: 2000, Max steps per episode: 300
 - Fully connected DQN: 512-256-8 architecture (8 actions for Phoenix)
 - Optimizer: Adam, lr=1e-3, gamma=0.99, batch=32
 - Replay buffer: 10k, train every 4 steps
